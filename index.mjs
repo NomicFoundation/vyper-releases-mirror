@@ -34,17 +34,18 @@ await fs.writeFileSync(
   "utf-8"
 );
 
-for (const release of list) {
-  for (const asset of release.assets) {
-    const filename = path.basename(asset.browser_download_url);
-    console.log("Downloading", filename);
+const urls = list
+  .map((release) => release.assets.map((asset) => asset.browser_download_url))
+  .flat();
 
-    await download(
-      asset.browser_download_url,
-      path.join(DIRNAME, "public", filename)
-    );
-  }
-}
+console.log("Downloading compilers");
+await Promise.all(
+  urls.map(async (url) => {
+    const filename = path.basename(url);
+    await download(url, path.join(DIRNAME, "public", filename));
+    console.log(filename, "downloaded");
+  })
+);
 
 export async function download(url, filePath) {
   const streamPipeline = util.promisify(pipeline);
