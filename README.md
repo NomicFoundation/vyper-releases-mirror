@@ -2,7 +2,7 @@
 
 This is a mirror of the [Vyper releases page](https://github.com/vyperlang/vyper/releases).
 
-Please, don't use this mirror directly from GitHub. Use its website instead.
+Please, don't use this mirror directly from GitHub. Use [its website](https://vyper-releases-mirror.hardhat.org) instead.
 
 ## Structure of the mirror
 
