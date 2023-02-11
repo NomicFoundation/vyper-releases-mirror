@@ -65,5 +65,9 @@ export async function download(url, filePath) {
   throw new Error(`Failed to download ${url}`);
 }
 
+const readme = fs.readFileSync(path.join(DIRNAME, "README.md"), "utf-8");
 
-fs.copyFileSync(path.join(DIRNAME, "README.md"), path.join(DIRNAME, "public", "index.html"),);
+fs.writeFileSync(
+  path.join(DIRNAME, "public", "index.html"),
+  `<pre>${readme}</pre>`
+);
