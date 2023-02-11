@@ -17,19 +17,19 @@ jobs:
           node-version: 18
       - name: Update mirror
         run: node index.mjs
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4.2.3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update mirror
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
-          branch: update-mirror
-          delete-branch: true
-          title: "Update mirror"
-          body: |
-            The mirror has been updated
-          assignees: alcuadrado
-          draft: false
+      # - name: Create Pull Request
+      #   id: cpr
+      #   uses: peter-evans/create-pull-request@v4.2.3
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     commit-message: Update mirror
+      #     committer: GitHub <noreply@github.com>
+      #     author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+      #     signoff: false
+      #     branch: update-mirror
+      #     delete-branch: true
+      #     title: "Update mirror"
+      #     body: |
+      #       The mirror has been updated
+      #     assignees: alcuadrado
+      #     draft: false
