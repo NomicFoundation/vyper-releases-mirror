@@ -1,4 +1,4 @@
-name: CI
+name: Update mirror
 on:
   push:
     branches: [main]
