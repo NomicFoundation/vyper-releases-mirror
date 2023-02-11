@@ -19,11 +19,18 @@ if (!respose.ok) {
   process.exit(1);
 }
 
-const list = await respose.json();
+const rawList = await respose.json();
+const list = rawList.map(({ assets, tag_name }) => ({
+  tag_name,
+  assets: assets.map(({ name, browser_download_url }) => ({
+    name,
+    browser_download_url,
+  })),
+}));
 
 await fs.writeFileSync(
   path.join(DIRNAME, "public", LIST_FILENAME),
-  JSON.stringify(list[0], undefined, 2),
+  JSON.stringify(list, undefined, 2),
   "utf-8"
 );
 
