@@ -64,3 +64,6 @@ export async function download(url, filePath) {
 
   throw new Error(`Failed to download ${url}`);
 }
+
+
+fs.copyFileSync(path.join(DIRNAME, "README.md"), path.join(DIRNAME, "public", "index.html"),);
