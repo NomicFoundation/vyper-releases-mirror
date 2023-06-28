@@ -1,5 +1,39 @@
 [
   {
+    "tag_name": "v0.3.9",
+    "assets": [
+      {
+        "name": "vyper.0.3.9+commit.66b96705.darwin",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.9/vyper.0.3.9%2Bcommit.66b96705.darwin"
+      },
+      {
+        "name": "vyper.0.3.9+commit.66b96705.linux",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.9/vyper.0.3.9%2Bcommit.66b96705.linux"
+      },
+      {
+        "name": "vyper.0.3.9+commit.66b96705.windows.exe",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.9/vyper.0.3.9%2Bcommit.66b96705.windows.exe"
+      }
+    ]
+  },
+  {
+    "tag_name": "v0.3.8",
+    "assets": [
+      {
+        "name": "vyper.0.3.8+commit.036f1536.darwin",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.8/vyper.0.3.8%2Bcommit.036f1536.darwin"
+      },
+      {
+        "name": "vyper.0.3.8+commit.036f1536.linux",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.8/vyper.0.3.8%2Bcommit.036f1536.linux"
+      },
+      {
+        "name": "vyper.0.3.8+commit.036f1536.windows.exe",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.8/vyper.0.3.8%2Bcommit.036f1536.windows.exe"
+      }
+    ]
+  },
+  {
     "tag_name": "v0.3.7",
     "assets": [
       {
