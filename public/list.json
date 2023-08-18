@@ -275,23 +275,6 @@
     ]
   },
   {
-    "tag_name": "v0.2.6",
-    "assets": [
-      {
-        "name": "vyper.0.2.6+commit.35467d5.darwin",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.2.6/vyper.0.2.6%2Bcommit.35467d5.darwin"
-      },
-      {
-        "name": "vyper.0.2.6+commit.35467d5.linux",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.2.6/vyper.0.2.6%2Bcommit.35467d5.linux"
-      },
-      {
-        "name": "vyper.0.2.6+commit.35467d5.windows.exe",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.2.6/vyper.0.2.6%2Bcommit.35467d5.windows.exe"
-      }
-    ]
-  },
-  {
     "tag_name": "v0.2.5",
     "assets": [
       {
