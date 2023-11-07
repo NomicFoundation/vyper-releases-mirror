@@ -123,40 +123,6 @@
     ]
   },
   {
-    "tag_name": "v0.3.7",
-    "assets": [
-      {
-        "name": "vyper.0.3.7+commit.6020b8bb.darwin",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.7/vyper.0.3.7%2Bcommit.6020b8bb.darwin"
-      },
-      {
-        "name": "vyper.0.3.7+commit.6020b8bb.linux",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.7/vyper.0.3.7%2Bcommit.6020b8bb.linux"
-      },
-      {
-        "name": "vyper.0.3.7+commit.6020b8bb.windows.exe",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.7/vyper.0.3.7%2Bcommit.6020b8bb.windows.exe"
-      }
-    ]
-  },
-  {
-    "tag_name": "v0.3.6",
-    "assets": [
-      {
-        "name": "vyper.0.3.6+commit.4a2124d0.darwin",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.6/vyper.0.3.6%2Bcommit.4a2124d0.darwin"
-      },
-      {
-        "name": "vyper.0.3.6+commit.4a2124d0.linux",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.6/vyper.0.3.6%2Bcommit.4a2124d0.linux"
-      },
-      {
-        "name": "vyper.0.3.6+commit.4a2124d0.windows.exe",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.6/vyper.0.3.6%2Bcommit.4a2124d0.windows.exe"
-      }
-    ]
-  },
-  {
     "tag_name": "v0.3.5",
     "assets": []
   },
@@ -208,23 +174,6 @@
       {
         "name": "vyper.0.3.2+commit.3b6a4117.windows.exe",
         "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.2/vyper.0.3.2%2Bcommit.3b6a4117.windows.exe"
-      }
-    ]
-  },
-  {
-    "tag_name": "v0.3.1",
-    "assets": [
-      {
-        "name": "vyper.0.3.1.darwin",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.1/vyper.0.3.1.darwin"
-      },
-      {
-        "name": "vyper.0.3.1.linux",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.1/vyper.0.3.1.linux"
-      },
-      {
-        "name": "vyper.0.3.1.windows.exe",
-        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.3.1/vyper.0.3.1.windows.exe"
       }
     ]
   },
