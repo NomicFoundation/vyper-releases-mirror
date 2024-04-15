@@ -1,5 +1,22 @@
 [
   {
+    "tag_name": "v0.4.0rc2",
+    "assets": [
+      {
+        "name": "vyper.0.4.0rc2+commit.6f09e296.darwin",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.4.0rc2/vyper.0.4.0rc2%2Bcommit.6f09e296.darwin"
+      },
+      {
+        "name": "vyper.0.4.0rc2+commit.6f09e296.linux",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.4.0rc2/vyper.0.4.0rc2%2Bcommit.6f09e296.linux"
+      },
+      {
+        "name": "vyper.0.4.0rc2+commit.6f09e296.windows.exe",
+        "browser_download_url": "https://github.com/vyperlang/vyper/releases/download/v0.4.0rc2/vyper.0.4.0rc2%2Bcommit.6f09e296.windows.exe"
+      }
+    ]
+  },
+  {
     "tag_name": "v0.4.0rc1",
     "assets": [
       {
