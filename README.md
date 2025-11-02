@@ -4,7 +4,7 @@ This is a mirror of the [Vyper releases page](https://github.com/vyperlang/vyper
 
 Please, don't use this mirror directly from GitHub. Use [its website](https://vyper-releases-mirror.hardhat.org) instead.
 
-## Structure of the mirror
+## Structure of the mirror 
 
 1. The mirror serves the [`public/`](https://github.com/NomicFoundation/vyper-releases-mirror/tree/main/public) folder present in its repository.
 2. It has a `list.json` file in its root, which is a simplified version of a the response of [this API call](https://api.github.com/repos/vyperlang/vyper/releases?per_page=200).
